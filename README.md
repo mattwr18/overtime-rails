@@ -14,4 +14,4 @@
 - Need documentation for 0 overtime
 
 ## UI:
-Bootstrap -> formatting
+- Bootstrap -> formatting
