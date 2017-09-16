@@ -15,3 +15,6 @@
 
 ## UI:
 - Bootstrap -> formatting
+
+## Refactor TODOS:
+- Refactor user association integration test is post_spec.rb
