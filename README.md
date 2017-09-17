@@ -14,8 +14,7 @@
 - Need documentation for 0 overtime
 
 ## UI:
-- Bootstrap -> formatting
+- x Bootstrap -> formatting
 
 ## Refactor TODOS:
-- Add full_name for users
 - Refactor user association integration test is post_spec.rb
