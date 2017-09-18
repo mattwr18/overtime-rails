@@ -9,8 +9,8 @@
 ## Features:
 - Approval workflow
 - SMS messages -> link to log time
-- Admin Dashboard -> Administrate
-- Block non admin and guest users
+- x Admin Dashboard -> Administrate
+- x Block non admin and guest users
 - Email summary -> AdminUser for approval
 - Need documentation for 0 overtime
 
