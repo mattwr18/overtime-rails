@@ -10,13 +10,14 @@
 - Approval workflow
 - SMS messages -> link to log time
 - Admin Dashboard -> Administrate
+- Block non admin and guest users
 - Email summary -> AdminUser for approval
 - Need documentation for 0 overtime
 
 ## UI:
 - x Bootstrap -> formatting
 - Add Font awesome
-- Style sign-in forms
+- x Style sign-in forms
 
 ## Refactor TODOS:
 - Refactor user association integration test is post_spec.rb
