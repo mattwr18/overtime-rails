@@ -23,3 +23,4 @@
 - Refactor user association integration test is post_spec.rb
 - Refactor posts/_form for admin user with status
 - Fix post_spec.rb:82 to use factories
+- Fix post_spec.rb:52 to have correct reference and not update
