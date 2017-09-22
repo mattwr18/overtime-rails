@@ -5,6 +5,7 @@
 - x Post -> date:date rationale:text
 - x User -> Devise
 - x AdminUser -> STI
+- AuditLog
 
 ## Features:
 - Approval workflow
@@ -16,8 +17,8 @@
 
 ## UI:
 - x Bootstrap -> formatting
-- Add Font awesome
+- x Add glyphicons
 - x Style sign-in forms
 
 ## Refactor TODOS:
-- Refactor posts/_form for admin user with status
+- x Refactor posts/_form for admin user with status
