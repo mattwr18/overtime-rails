@@ -33,7 +33,6 @@ describe 'navigate' do
       user = FactoryGirl.create(:user)
       login_as(user, :scope => :user)
 
-
        @post.update(user_id: user.id, status: 'approved')
        visit edit_post_path(@post)
 
