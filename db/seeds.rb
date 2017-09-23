@@ -3,8 +3,8 @@
                     password_confirmation: "asdfasdf",
                     first_name: "Daenerys",
                     last_name: "Targaryen")
-                    phone: "4322386131"
-                    
+                    phone: "48999435231"
+
 puts "1 user created"
 
 AdminUser.create(email: "admin@test.com",
@@ -12,8 +12,8 @@ AdminUser.create(email: "admin@test.com",
                  password_confirmation: "asdfasdf",
                  first_name: "Arya",
                  last_name: "Stark")
-                 phone: "4322386131"
-                 
+                 phone: "48999435231"
+
 puts "1 Amin User created"
 
 100.times do |post|
