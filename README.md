@@ -21,7 +21,21 @@
 - x Style sign-in forms
 
 ## TODOS:
-- Integrate validation for phone attr in User:
-# No spaces or dashes
-# exactly 10 character
-# all char have to be a number
+
+
+Goal of audit log:
+
+Keep track of if an employee had overtime or not
+
+Dependencies:
+   -User
+
+Attrs:
+  - Status:integer (enum) -> pending, complete
+  - start_date:date -> default previous Monday
+  - date_verified
+monday
+|
+|
+|
+sunday === notification
