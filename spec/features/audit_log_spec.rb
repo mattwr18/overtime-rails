@@ -16,12 +16,17 @@ describe 'AuditLog Feature' do
 
     it 'renders audit log content' do
       visit audit_logs_path
-
       expect(page).to have_content(/TARGARYEN, DAENERYS/)
     end
 
-    xit 'canno be accessed by non admin_user' do
+    it 'cannot be accessed by non admin_user' do
+      logout(:user)
+      user = FactoryGirl.create(:user)
+      login_as(user, :scope => :user)
 
+      visit audit_logs_path
+
+      expect(current_path).to eq(root_path)
     end
   end
 end
