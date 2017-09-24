@@ -23,7 +23,7 @@ group :development, :test do
   gem 'selenium-webdriver'
   gem 'database_cleaner'
   gem 'factory_girl_rails', '~> 4.8'
-  gem 'dotenv-rails'  
+  gem 'dotenv-rails'
 end
 
 group :development do
@@ -41,3 +41,4 @@ gem "administrate", "~> 0.8.1"
 gem 'bourbon'
 gem 'pundit', "~> 1.1"
 gem 'twilio-ruby'
+gem 'kaminari', '~> 1.0', '>= 1.0.1'
