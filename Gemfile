@@ -42,3 +42,4 @@ gem 'bourbon'
 gem 'pundit', "~> 1.1"
 gem 'twilio-ruby'
 gem 'kaminari', '~> 1.0', '>= 1.0.1'
+gem 'bootstrap4-kaminari-views'
