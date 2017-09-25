@@ -8,7 +8,7 @@
 }
 
 .homepage-block {
-  background-color: #73537c;
+  background-color: #5b2f68;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   border-radius: 8px;
@@ -19,4 +19,8 @@
 
 .pending-details {
   font-weight: 900;
+}
+
+.homepage-block:hover {
+  background-color: #391144;
 }
