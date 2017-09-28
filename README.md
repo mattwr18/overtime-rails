@@ -5,15 +5,15 @@
 - x Post -> date:date rationale:text
 - x User -> Devise
 - x AdminUser -> STI
-- AuditLog
+- x AuditLog
 
 ## Features:
-- Approval workflow
+- x Approval workflow
 - SMS messages -> link to log time -> integrate with heroku scheduler
 - x Admin Dashboard -> Administrate
 - x Block non admin and guest users
 - Email summary -> AdminUser for approval
-- Need documentation for 0 overtime
+- x Need documentation for 0 overtime
 
 ## UI:
 - x Bootstrap -> formatting
@@ -21,21 +21,3 @@
 - x Style sign-in forms
 
 ## TODOS:
-
-
-Goal of audit log:
-
-Keep track of if an employee had overtime or not
-
-Dependencies:
-   -User
-
-Attrs:
-  - Status:integer (enum) -> pending, complete
-  - start_date:date -> default previous Monday
-  - date_verified
-monday
-|
-|
-|
-sunday === notification
