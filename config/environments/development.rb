@@ -25,7 +25,7 @@ Rails.application.configure do
   config.action_mailer.perform_deliveries = true
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
-
+=begin
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
     :authentication => :plain,
@@ -35,4 +35,5 @@ Rails.application.configure do
     :user_name => "postmaster@sandbox86a31079b52a490f845240f59873e972.mailgun.org",
     :password => "c59757107a59f938a941ddc360ef5e16"
   }
+=end 
 end
