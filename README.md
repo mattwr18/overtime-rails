@@ -9,11 +9,12 @@
 
 ## Features:
 - x Approval workflow
-- SMS messages -> link to log time -> integrate with heroku scheduler
+- x SMS messages -> link to log time -> integrate with heroku scheduler
 - x Admin Dashboard -> Administrate
 - x Block non admin and guest users
 - Email summary -> AdminUser for approval
 - x Need documentation for 0 overtime
+- Create audit log for each text message
 
 ## UI:
 - x Bootstrap -> formatting
