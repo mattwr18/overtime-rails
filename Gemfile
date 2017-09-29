@@ -43,3 +43,4 @@ gem 'pundit', "~> 1.1"
 gem 'twilio-ruby'
 gem 'kaminari', '~> 1.0', '>= 1.0.1'
 gem 'bootstrap4-kaminari-views'
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'

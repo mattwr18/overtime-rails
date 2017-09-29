@@ -1,9 +1,9 @@
-ActionMailer::Base.delivery_method = :smtp
 ActionMailer::Base.smtp_settings = {
+  :port           => ENV['MAILGUN_SMTP_PORT'],
+  :address        => ENV['MAILGUN_SMTP_SERVER'],
+  :user_name      => ENV['MAILGUN_SMTP_LOGIN'],
+  :password       => ENV['MAILGUN_SMTP_PASSWORD'],
+  :domain         => 'rails-first-app-overtime.herokuapp.com',
   :authentication => :plain,
-  :address => "smtp.mailgun.org",
-  :port => 587,
-  :domain => "sandbox86a31079b52a490f845240f59873e972.mailgun.org",
-  :user_name => "postmaster@sandbox86a31079b52a490f845240f59873e972.mailgun.org",
-  :password => "c59757107a59f938a941ddc360ef5e16"
 }
+ActionMailer::Base.delivery_method = :smtp
